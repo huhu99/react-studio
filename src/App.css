@@ -5,5 +5,35 @@
 }
 
 .BakeryItem {
-  
+  max-width: 30rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.BakeryImage {
+    max-width: 30rem;
+}
+
+.main {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 80%;
+}
+
+.header {
+    margin: 50px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: lightblue; /* Green */
+
 }
